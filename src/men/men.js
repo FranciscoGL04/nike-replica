@@ -71,7 +71,6 @@ function Men() {
           </div>
         </div>
       </nav>
-
     <div id="cards-container">
       <div class="card">
         <img
@@ -81,7 +80,7 @@ function Men() {
         />
         <div class="card-body">
           <p class="card-text">
-          Blue / beige suede - Recycled canvas
+          Blue / beige suede - Recycled canvas just testing
           </p>
         </div>
       </div>
