@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./home/Home";
+import Men from "./men/men";
+import Women from "./women/women";
+import Kids from "./kids/kids";
+import New from "./new/new";
+import Sport from "./sport/sport";
+import Sale from "./sale/sale";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+function App2() {
+  return(
+    <Router>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/men" element={<Men/>}/>
+            <Route path="/women" element={<Women/>}/>
+            <Route path="/kids" element={<Kids/>}/>
+            <Route path="/kids" element={<Kids/>}/>
+            <Route path="/new" element={<New/>}/>
+            <Route path="/sport" element={<Sport/>}/>
+            <Route path="/sale" element={<Sale/>}/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App2;

@@ -1,0 +1,17 @@
+#cards-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-img{
+    width: 400px;
+    display: flex;
+    align-self: center;
+    position: relative;
+}
+
+p {
+    position: absolute;
+    left: 40%;
+}
