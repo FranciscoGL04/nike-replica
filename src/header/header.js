@@ -1,5 +1,7 @@
 import "../header/css/style.css"
 import { Link } from "react-router-dom";
+import heart from "../assets/heart.png";
+import shoppingbag from "../assets/shopping-bag.png"
 
 function Header() {
     return(
@@ -29,9 +31,12 @@ function Header() {
             <i class="fas fa-search"></i>
           </div>
           <div class="nav-icons">
-            <i class="far fa-heart"></i>
-            <i class="fas fa-shopping-bag"></i>
-            <i class="far fa-user"></i>
+            <i>
+            <a><img src={heart} alt="heartIcon" class="icons"/></a>
+            </i>
+            <i class="fas fa-shopping-bag">
+            <a><img src={shoppingbag} alt="heartIcon" class="icons"/></a>
+            </i>
           </div>
         </div>
       </div>
