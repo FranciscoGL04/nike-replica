@@ -5,6 +5,7 @@ import men from "./images/men.png";
 import women from "./images/women.png";
 import kids from "./images/kids.png";
 import video from "./images/video1280version.mp4";
+import bannerImg from "./images/bannerImg.png"
 
 function Body() {
   return (
@@ -90,9 +91,14 @@ function Body() {
         </div>
       </div>
       <div id="banner-container">
-        <a href="#">
-        <img src="https://static.nike.com/a/images/w_1200,h_1200,c_fill,f_auto/950b128e-97ac-4693-9b8e-e604933a4957/image.png" alt="nike-lego-banner"/>
-        </a>
+        <Link href="#" className="banner-link">
+        <img id="bannerImage" src={bannerImg} alt="nike-lego-banner"/>
+        <div className="banner-overlay">
+                  <p className="banner-text">Dunk Low x Lego Collection</p>
+                  <h5 className="banner-title">Striking Lines</h5>
+                  <button className="banner-btn">Discover now</button>
+                </div>
+        </Link>
       </div>
     </div>
   );
