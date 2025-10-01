@@ -24,6 +24,10 @@
   width: auto;
 }
 
+.fas {
+  width: 20px;
+}
+
 /* Hide desktop navigation on mobile */
 
 #topBar {
@@ -164,9 +168,7 @@
 
 /* Tablet (768px and up) */
 @media (min-width: 768px) {
-  #topBar{
-
-  }
+  
 
   #logo {
     height: 24px;

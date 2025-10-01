@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import heart from "../assets/heart.png";
 import shoppingbag from "../assets/shopping-bag.png"
 import logo from "./logo/jordanLogo.png";
+import searchIcon from "./logo/search.png";
 
 function Header() {
     return(
@@ -46,7 +47,7 @@ function Header() {
           {/* Search and Icons */}
           <div className="d-flex align-items-center ms-auto">
             <div className="search-box me-3">
-              <i className="fas fa-search"></i>
+              <img className="fas fa-search" src={searchIcon}/>
               <input type="text" placeholder="Search"/>
             </div>
             <div className="nav-icons">

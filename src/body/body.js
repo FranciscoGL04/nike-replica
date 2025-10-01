@@ -40,7 +40,7 @@ function Body() {
                 <div className="card-overlay">
                   <p className="card-text">Check Our Articles On Sale!</p>
                   <h5 className="card-title">Up to 50% Off!</h5>
-                  <button className="card-btn">Shop</button>
+                  <button className="card-btn">Discover now</button>
                 </div>
               </Link>
             </div>
@@ -54,7 +54,7 @@ function Body() {
                 <div className="card-overlay">
                   <p className="card-text">Our Picks For Men</p>
                   <h5 className="card-title">Men's Collection</h5>
-                  <button className="card-btn">Shop</button>
+                  <button className="card-btn">Discover now</button>
                 </div>
               </Link>
             </div>
@@ -68,7 +68,7 @@ function Body() {
                 <div className="card-overlay">
                   <p className="card-text">Women's Top Picks Here</p>
                   <h5 className="card-title">Women's Collection</h5>
-                  <button className="card-btn">Shop</button>
+                  <button className="card-btn">Discover now</button>
                 </div>
               </Link>
             </div>
@@ -82,12 +82,17 @@ function Body() {
                 <div className="card-overlay">
                   <p className="card-text">The Best For Our Kids</p>
                   <h5 className="card-title">Kids Collection</h5>
-                  <button className="card-btn">Shop</button>
+                  <button className="card-btn">Discover now</button>
                 </div>
               </Link>
             </div>
           </div>
         </div>
+      </div>
+      <div id="banner-container">
+        <a href="#">
+        <img src="https://static.nike.com/a/images/w_1200,h_1200,c_fill,f_auto/950b128e-97ac-4693-9b8e-e604933a4957/image.png" alt="nike-lego-banner"/>
+        </a>
       </div>
     </div>
   );
