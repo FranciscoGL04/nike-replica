@@ -1,0 +1,113 @@
+/* Mobile First - Base Styles */
+
+/* Hero Video Section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  width: 90%;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+
+
+/* Tablet (600px and up) */
+@media (min-width: 600px) {
+  .hero-section {
+    height: 500px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* Desktop (992px and up) */
+@media (min-width: 992px) {
+  .hero-section {
+    height: 640px;
+    margin-bottom: 3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    letter-spacing: 4px;
+  }
+
+}
+
+/* Large Desktop (1400px and up) */
+@media (min-width: 1400px) {
+  .hero-section {
+    height: 720px;
+  }
+
+  .hero-title {
+    font-size: 6rem;
+    font-weight: bolder;
+    letter-spacing:0;
+    margin-top: 10px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:0cap;
+    margin-bottom: 10px;
+  }
+}

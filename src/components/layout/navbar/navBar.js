@@ -1,11 +1,11 @@
-import "../header/css/style.css"
+import "../navbar/css/style.css"
 import { Link } from "react-router-dom";
-import heart from "../assets/heart.png";
-import shoppingbag from "../assets/shopping-bag.png"
-import logo from "./logo/jordanLogo.png";
-import searchIcon from "./logo/search.png";
+import heart from "../../../assets/Icons/heart.png";
+import shoppingbag from "../../../assets//Icons/shopping-bag.png"
+import logo from "../../../assets/Images/jordanLogo.png";
+import searchIcon from "../../../assets/Icons/search.png";
 
-function Header() {
+function NavBar() {
     return(
       <div>
         <div id="topBar">
@@ -70,4 +70,4 @@ function Header() {
     ) 
 }
 
-export default Header;
+export default NavBar;

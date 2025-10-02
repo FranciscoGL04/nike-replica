@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./style/style.css";
-import Header from "../header/header";
+import Header from "../../components/layout/navbar/navBar";
 
 function Men() {
   return (

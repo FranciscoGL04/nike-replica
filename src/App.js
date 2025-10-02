@@ -1,10 +1,10 @@
-import Home from "./home/Home";
-import Men from "./men/men";
-import Women from "./women/women";
-import Kids from "./kids/kids";
-import New from "./new/new";
-import Sport from "./sport/sport";
-import Sale from "./sale/sale";
+import Home from "../src/pages/home/Home";
+import Men from "../src/pages/men/men";
+import Women from "../src/pages/women/women";
+import Kids from "../src/pages/kids/kids";
+import New from "../src/pages/new/new";
+import Sport from "../src/pages/sport/sport";
+import Sale from "../src/pages/sale/sale";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 function App2() {
   return(
