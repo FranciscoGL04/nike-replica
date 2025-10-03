@@ -22,7 +22,8 @@ function HomeCarousel() {
         ]
 
 
-    return (
+    return (<div>
+        <h1>Shop our Icons</h1>
         <div className="container">
          <Swiper
             modules={[Navigation, Scrollbar]}
@@ -45,16 +46,18 @@ function HomeCarousel() {
         
         {products.map((product) => ( 
             <SwiperSlide key={product.id}>
-                <div className="card" orientation="portrait">
+                <div class="card" orientation="portrait">
                     <img 
                     class="card-img"
                     src={product.image}
                     alt={product.name}/>
-                    <button class="card-btn">{product.name}</button>
+                    <button class="carousel-card-btn">{product.name}</button>
                 </div>
             </SwiperSlide>
         ))}
         </Swiper>
+    </div>
+    
     </div>
     );
 };

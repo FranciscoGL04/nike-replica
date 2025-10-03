@@ -1,0 +1,20 @@
+.card {
+    border: none;
+}
+
+card-img {
+    width:max-content;
+    position: relative;
+}
+
+.carousel-card-btn {
+    font-weight: bold;
+    width: 150px;
+    background-color: white;
+    color: rgb(46, 44, 44);
+    border-radius: 20px;
+    position: absolute;
+    top: 85%;
+    left: 18%;
+
+}
