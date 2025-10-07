@@ -15,7 +15,7 @@ function HomeCards() {
           <div className="card-wrapper">
             <div className="product-card">
               <Link to="/sale" className="card-link">
-                <img className="card-image" src={fiftyOff} alt="Sale" />
+                <img className="card-image" src="https://static.nike.com/a/images/f_auto,cs_srgb/w_960,c_limit/57f0dbe3-00ce-4881-88e5-d72d1c3c7bdc/nike-just-do-it.png" alt="Sale" />
                 <div className="card-overlay">
                   <p className="card-text">Check Our Articles On Sale!</p>
                   <h5 className="card-title">Up to 50% Off!</h5>

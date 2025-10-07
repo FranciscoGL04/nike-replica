@@ -16,5 +16,11 @@ card-img {
     position: absolute;
     top: 85%;
     left: 18%;
+    border: none;
 
+}
+
+.carousel-card-btn:hover{
+    background-color: rgba(46, 44, 44, 0.9);
+    color: white;
 }

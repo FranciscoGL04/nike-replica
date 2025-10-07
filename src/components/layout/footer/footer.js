@@ -1,24 +1,38 @@
 import "../footer/css/style.css"
 
 function Footer() {
-    return(
-      <footer class="footer-area footer--light">
+  return (
+    <footer class="footer-area footer--light">
       <div class="footer-big">
         <div class="container">
           <div class="row">
-            <div class="col-md-3 col-sm-12">
+
+
+            <div class="col-md-3 col-sm-4">
               <div class="footer-widget">
-                <div class="widget-about">
-                  <img src="http://placehold.it/250x80" alt="" class="img-fluid"/>
-                  <p></p>
-                  <ul class="contact-details">
+                <div class="footer-menu footer-menu--1">
+                  <h6 class="footer-widget-title">Resources</h6>
+                  <ul>
                     <li>
-                      <span class="icon-earphones"></span> Call Us:
-                      <a href="tel:344-755-111">344-755-111</a>
+                      <a href="#">Search store</a>
                     </li>
                     <li>
-                      <span class="icon-envelope-open"></span>
-                      <a href="mailto:support@aazztech.com">support@aazztech.com</a>
+                      <a href="#">Nike Journal</a>
+                    </li>
+                    <li>
+                      <a href="#">Become a member</a>
+                    </li>
+                    <li>
+                      <a href="#">Feedback</a>
+                    </li>
+                    <li>
+                      <a href="#">Promotion codes</a>
+                    </li>
+                    <li>
+                      <a href="#">Prduct advice</a>
+                    </li>
+                    <li>
+                      <a href="#">Shoe Finder for running shoes</a>
                     </li>
                   </ul>
                 </div>
@@ -27,111 +41,72 @@ function Footer() {
 
             <div class="col-md-3 col-sm-4">
               <div class="footer-widget">
-                <div class="footer-menu footer-menu--1">
-                  <h4 class="footer-widget-title">Popular Category</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Wordpress</a>
-                    </li>
-                    <li>
-                      <a href="#">Plugins</a>
-                    </li>
-                    <li>
-                      <a href="#">Joomla Template</a>
-                    </li>
-                    <li>
-                      <a href="#">Admin Template</a>
-                    </li>
-                    <li>
-                      <a href="#">HTML Template</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-    
-            <div class="col-md-3 col-sm-4">
-              <div class="footer-widget">
                 <div class="footer-menu">
-                  <h4 class="footer-widget-title">Our Company</h4>
+                  <h6 class="footer-widget-title">Help</h6>
                   <ul>
                     <li>
-                      <a href="#">About Us</a>
+                      <a href="#">Help</a>
                     </li>
                     <li>
-                      <a href="#">How It Works</a>
+                      <a href="#">Order status</a>
                     </li>
                     <li>
-                      <a href="#">Affiliates</a>
+                      <a href="#">Shipping and delivery</a>
                     </li>
                     <li>
-                      <a href="#">Testimonials</a>
+                      <a href="#">Returns</a>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <a href="#">Payment options</a>
                     </li>
                     <li>
-                      <a href="#">Plan &amp; Pricing</a>
+                      <a href="#">Contact</a>
                     </li>
                     <li>
-                      <a href="#">Blog</a>
+                      <a href="#">Reviews</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-    
+
             <div class="col-md-3 col-sm-4">
               <div class="footer-widget">
                 <div class="footer-menu no-padding">
-                  <h4 class="footer-widget-title">Help Support</h4>
+                  <h6 class="footer-widget-title">Pursue</h6>
                   <ul>
                     <li>
-                      <a href="#">Support Forum</a>
+                      <a href="#">About Nike</a>
                     </li>
                     <li>
-                      <a href="#">Terms &amp; Conditions</a>
+                      <a href="#">news</a>
                     </li>
                     <li>
-                      <a href="#">Support Policy</a>
+                      <a href="#">career</a>
                     </li>
                     <li>
-                      <a href="#">Refund Policy</a>
+                      <a href="#">Investors</a>
                     </li>
                     <li>
-                      <a href="#">FAQs</a>
+                      <a href="#">sustainability</a>
                     </li>
                     <li>
-                      <a href="#">Buyers Faq</a>
+                      <a href="#">mission</a>
                     </li>
                     <li>
-                      <a href="#">Sellers Faq</a>
+                      <a href="#">Nike Coaching</a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-    
+
           </div>
         </div>
       </div>
-    
-      <div class="mini-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="copyright-text">
-                <p>© 2018
-                  <a href="#">DigiPro</a>. All rights reserved. Created by
-                  <a href="#">AazzTech</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </footer>
-    )
+  )
 }
 
 export default Footer;
