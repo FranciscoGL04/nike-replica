@@ -1,0 +1,17 @@
+#sidebar-container{
+    width: 200px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.sidebar-menu{
+    border: none;
+    border-top: 1px solid rgb(200, 195, 195);
+    padding: 10px;
+}
+
+h6{
+    font-weight: bold;
+} 

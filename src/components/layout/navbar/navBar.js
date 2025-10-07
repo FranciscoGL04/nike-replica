@@ -19,10 +19,10 @@ function NavBar() {
         </div>
         <div id="topBarList">
             <ul id="topList">
-              <li class="listItem"><Link class="listLink">Search store</Link></li>|
-              <li class="listItem"><Link class="listLink">Help</Link></li>|
-              <li class="listItem"><Link class="listLink">Be there</Link></li>|
-              <li class="listItem"><Link class="listLink">Register</Link></li>
+              <li className="listItem"><Link className="listLink">Search store</Link></li>|
+              <li className="listItem"><Link className="listLink">Help</Link></li>|
+              <li className="listItem"><Link className="listLink">Be there</Link></li>|
+              <li className="listItem"><Link className="listLink">Register</Link></li>
             </ul>
         </div>
         </div>
