@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Header from "../../components/layout/navbar/navBar";
+import Footer from "../../components/layout/footer/footer";
+
 
 
 function Kids() {
@@ -10,6 +12,8 @@ function Kids() {
 
 
             kIDS ITEMS
+            <Footer/>
+            
         </div>
     )
 }

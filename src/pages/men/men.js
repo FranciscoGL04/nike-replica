@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import "./style/style.css";
 import Header from "../../components/layout/navbar/navBar";
+import Footer from "../../components/layout/footer/footer";
 
 function Men() {
   return (
-    <div>
+    <>
       
     <Header/>
 
@@ -82,7 +83,8 @@ function Men() {
         </div>
       </div>
       </div>
-    </div>
+      <Footer/>
+    </>
   );
 }
 
