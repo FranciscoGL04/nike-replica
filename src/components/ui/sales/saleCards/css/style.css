@@ -1,0 +1,44 @@
+.sale-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.saleCard{
+    width: 507px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg{
+    width: 507px;
+    height: 507px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name{
+    width: 507px;
+}
+
+.card-price-info{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.item-category{
+    color: gray;
+}
+
+.item-previous-price{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.item-discount{
+    color: green;
+}

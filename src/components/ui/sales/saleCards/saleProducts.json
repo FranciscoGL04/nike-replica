@@ -1,0 +1,77 @@
+[
+{
+"id":"1",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4791d7d0-3286-49e7-a196-3238aa566e26/WMNS+NIKE+AIR+FORCE+1+LO+PRM.png",
+"name":"Nike Air Force 1 Low Premium",
+"category":"women",
+"price":"CHF 108.99",
+"previousprice":"CHF 155",
+"discount":"29% discount"
+}
+,
+{
+"id":"2",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8c6547df-d4ac-4b28-8fe6-fe7763053a8b/NIKE+AIR+MAX+95+BIG+BUBBLE.png",
+"name":"Nike Air Max 95 `Big Bubble`",
+"category":"men",
+"price":"CHF 154.99",
+"previousprice":"CHF 220",
+"discount":"29% discount"
+}
+
+,
+{
+"id":"3",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3c87ccc1-5220-4f3c-b443-73a520b1fe73/NIKE+FULL+FORCE+LO+%28GS%29.png",
+"name":"Nike Full Force Low",
+"category":"children",
+"price":"CHF 69.99",
+"previousprice":"CHF 87",
+"discount":"19% discount"
+}
+
+,
+{
+"id":"4",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1944274f-9eca-4276-a04d-576bcd9bf538/NIKE+SHOX+TL.png",
+"name":"Nike Shox TL",
+"category":"men",
+"price":"CHF 146.99",
+"previousprice":"CHF 200",
+"discount":"26% discount"
+}
+
+,
+{
+"id":"5",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c73892c7-ca76-4059-8d91-1a6e8098cea8/NIKE+AIR+MAX+PLUS.png",
+"name":"Nike Air Max Plus",
+"category":"men",
+"price":"CHF 154.99",
+"previousprice":"CHF 220",
+"discount":"29% discount"
+}
+
+,
+{
+"id":"6",
+"image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0f76f73e-2578-4d62-abab-c5563ea4f78c/NIKE+DUNK+LOW+RETRO.png",
+"name":"Nike Dunk Low Retro",
+"category":"men",
+"price":"CHF 98.99",
+"previousprice":"CHF 140",
+"discount":"29% discount"
+}
+
+,
+{
+"id":"",
+"image":"",
+"name":"",
+"category":"",
+"price":"",
+"previousprice":"",
+"discount":""
+}
+
+]

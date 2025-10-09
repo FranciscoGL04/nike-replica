@@ -17,9 +17,9 @@ function Sidebar() {
         </select>
         <select className="sidebar-menu" defaultValue="">
             <option value="" disabled hidden><h6>Gender</h6></option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="1">Men</option>
+            <option value="2">Women</option>
+            <option value="3">Unisex</option>
         </select>
         <select className="sidebar-menu" defaultValue="">
             <option value="" disabled hidden><h6>Children</h6></option>
