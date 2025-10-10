@@ -1,0 +1,110 @@
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.banner-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  width: 90%;
+}
+
+.banner-subtitle {
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+
+
+/* Tablet (600px and up) */
+@media (min-width: 600px) {
+  .video-section {
+    height: 500px;
+  }
+
+  .banner-subtitle {
+    font-size: 16px;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+
+}
+
+/* Desktop (992px and up) */
+@media (min-width: 992px) {
+  .video-section {
+    height: 640px;
+    margin-bottom: 3rem;
+  }
+
+  .banner-subtitle {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .banner-title {
+    font-size: 4rem;
+    letter-spacing: 4px;
+  }
+
+}
+
+/* Large Desktop (1400px and up) */
+@media (min-width: 1400px) {
+  .video-section {
+    height: 600px;
+  }
+
+  .banner-title {
+    font-size: 6rem;
+    font-weight:900;
+    letter-spacing:0;
+    margin-top: 10px;
+  }
+
+  .banner-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:0cap;
+    margin-bottom: 10px;
+  }
+}
